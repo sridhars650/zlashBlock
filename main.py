@@ -9,7 +9,7 @@ import os
 
 class App:
     def __init__(self):        
-        self.name_prefix = f"[CFPihole]"
+        self.name_prefix = f"[zlashBlock]"
         self.logger = logging.getLogger("main")
         self.whitelist = self.loadWhitelist()
 
