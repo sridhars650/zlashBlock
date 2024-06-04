@@ -9,8 +9,8 @@ logger = logging.getLogger("cloudflare")
 from dotenv import load_dotenv
 load_dotenv()
 
-CF_API_TOKEN = os.getenv("CF_API_TOKEN") or os.environ.get("CF_API_TOKEN")
-CF_IDENTIFIER = os.getenv("CF_IDENTIFIER") or os.environ.get("CF_IDENTIFIER")
+CF_IDENTIFIER="2c8a885b3ceb38485393b1fa4c3604ca"
+CF_API_TOKEN="z__PUJZfA8sHfauYi-ySY78g5lwx6j0rqdEbtgLa"
 if not CF_API_TOKEN or not CF_IDENTIFIER:
     raise Exception("Missing Cloudflare credentials")
 
